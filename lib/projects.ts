@@ -17,6 +17,22 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: 'real-time-crypto-pipeline',
+    title: 'Real-Time Crypto Analytics Pipeline',
+    category: 'Data Engineering',
+    shortDescription: 'Built a real-time crypto analytics pipeline processing live market data for streaming insights.',
+    description: 'Designed and implemented a scalable real-time analytics platform using Kafka, Spark Streaming, Airflow, and BigQuery to process and analyze cryptocurrency market events with low latency.',
+    problem: 'Traditional batch systems could not provide near real-time visibility into fast-moving cryptocurrency market trends.',
+    solution: 'Implemented event-driven ingestion and streaming transformations using Apache Kafka and Spark Streaming with orchestrated workflows.',
+    impact: 'Enabled near real-time analytics, improved monitoring visibility, and reduced reporting delays significantly.',
+    tools: ['Python', 'Apache Kafka', 'PostgreSQL', 'Docker', 'Docker Compose', 'Streamlit', 'pgAdmin', 'CoinGecko API'],
+    live: '#',
+    featured: false,
+    year: '2026',
+    diagramType: 'etl',
+  },
+  
+  {
     slug: 'youtube-data-analysis',
     title: 'End-to-End YouTube Data Analysis Pipeline',
     category: 'Cloud Data Engineering',
@@ -75,21 +91,6 @@ export const projects: Project[] = [
     featured: true,
     year: '2023',
     diagramType: 'spark',
-  },
-  {
-    slug: 'enhancing-drinking-water-data',
-    title: 'Enhancing Drinking Water Accessibility Data',
-    category: 'Data Analytics',
-    shortDescription: 'Regional analysis of WHO/UNICEF water service levels from 2000–2020, identifying disparities and SDG 6 gaps.',
-    description: 'Analyzed global drinking water accessibility data using the WHO/UNICEF JMP dataset to evaluate household access to safe water services from 2020 onward, focusing on regional disparities.',
-    problem: 'Many regions face unequal access to clean drinking water, making it difficult for policymakers to accurately assess service gaps and track progress toward global sustainability targets with reliable data.',
-    solution: 'Used statistical analysis, spreadsheet modeling, and visualization to evaluate water service levels across regions, create comparative benchmarks, and identify gaps between basic, limited, and safely managed water services.',
-    impact: 'Highlighted regional disparities in water accessibility, improved visibility into global water service trends from 2000–2020, and supported evidence-based strategies for advancing equitable clean water access.',
-    tools: ['Statistics', 'Data Visualization', 'Spreadsheet'],
-    live: '#',
-    featured: false,
-    year: '2022',
-    diagramType: 'water',
   },
 ]
 
