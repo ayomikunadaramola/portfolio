@@ -27,7 +27,7 @@ export const projects: Project[] = [
     impact: 'Enabled near real-time analytics, improved monitoring visibility, and reduced reporting delays significantly.',
     tools: ['Python', 'Apache Kafka', 'PostgreSQL', 'Docker', 'Docker Compose', 'Streamlit', 'pgAdmin', 'CoinGecko API'],
     live: '#',
-    featured: false,
+    featured: true,
     year: '2026',
     diagramType: 'etl',
   },
