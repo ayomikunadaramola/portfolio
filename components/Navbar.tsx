@@ -91,7 +91,7 @@ export default function Navbar() {
             )}
 
             <a
-              href="/Ayomikun_Adaramola_Data_Engineer_CV.pdf"
+              href="/Ayomikun_ADARAMOLA_Data_Engineer_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border"
@@ -142,7 +142,7 @@ export default function Navbar() {
                 </motion.a>
               ))}
               <a
-                href="/Ayomikun_Adaramola_Data_Engineer_CV.pdf"
+                href="/Ayomikun_ADARAMOLA_Data_Engineer_Resume.pdf"
                 target="_blank"
                 className="mt-2 py-3 px-3 rounded-lg text-sm font-medium text-center border"
                 style={{ borderColor: 'var(--accent)', color: 'var(--accent)' }}

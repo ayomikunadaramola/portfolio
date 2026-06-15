@@ -143,7 +143,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/Ayomikun_Adaramola_Data_Engineer_CV.pdf"
+                href="/Ayomikun_ADARAMOLA_Data_Engineer_Resume.pdf"
                 target="_blank"
                 className="flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all border hover:bg-[var(--accent-glow)]"
                 style={{
