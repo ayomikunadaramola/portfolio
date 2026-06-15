@@ -35,7 +35,7 @@ export const projects: Project[] = [
   github: 'https://github.com/ayomikunadaramola/healthcare-claims-platform',
   featured: true,
   year: '2026',
-  diagramType: 'pipeline',
+  diagramType: 'etl',
   },
   {
   slug: 'rideshare-analytics-platform',
@@ -60,7 +60,7 @@ export const projects: Project[] = [
   live: '#',
   featured: true,
   year: '2026',
-  diagramType: 'pipeline',
+  diagramType: 'analytics',
   },
   {
   slug: 'swiftride-logistics-postgresql-project',
@@ -85,7 +85,7 @@ export const projects: Project[] = [
   live: '#',
   featured: true,
   year: '2026',
-  diagramType: 'database',
+  diagramType: 'analytics',
   },
   {
     slug: 'real-time-crypto-pipeline',
